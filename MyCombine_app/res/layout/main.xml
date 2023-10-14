@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:background="@drawable/index"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_centerInParent="true"
+        android:text="@string/EM" />
+
+    <Button
+        android:id="@+id/myButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dip"
+        android:text="@string/EXIT" />
+		
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="32dp"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/welcome"
+        android:textColor="#ff000000"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        
+
+        <Button
+            android:id="@+id/myButton_WARMING"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/position"
+            android:layout_toLeftOf="@+id/position"
+            android:text="WARMING" />
+
+        <Button
+            android:id="@+id/myButton_PARTY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/position"
+            android:layout_toRightOf="@+id/position"
+            android:text="PARTY" />
+        <Button
+            android:id="@+id/myButton_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/position"
+            android:layout_toRightOf="@+id/position"
+            android:text="RESET" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/position"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/myButton2"
+            android:layout_toLeftOf="@+id/myButton2"
+            android:text="@string/D5"
+            android:textColor="#ff000000"
+            android:textSize="20px" />
+
+        <Button
+            android:id="@+id/myButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/position"
+            android:layout_toLeftOf="@+id/position"
+            android:text="@string/CLOSE" />
+
+        <Button
+            android:id="@+id/myButton2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/position"
+            android:layout_toRightOf="@+id/position"
+            android:text="@string/OPEN" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout10"
+        android:layout_marginTop="19dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/myButton1"
+            android:text="@string/D7"
+            android:textColor="#ff000000"
+            android:textSize="20px" />
+
+        <Button
+            android:id="@+id/myButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/position"
+            android:layout_toLeftOf="@+id/position"
+            android:text="@string/CLOSE" />
+
+        <Button
+            android:id="@+id/myButton1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/position"
+            android:layout_toRightOf="@+id/position"
+            android:text="@string/OPEN" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_infrared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/myButton3"
+        android:layout_below="@+id/linearLayout10"
+        android:text="TextView" />
+
+</RelativeLayout>

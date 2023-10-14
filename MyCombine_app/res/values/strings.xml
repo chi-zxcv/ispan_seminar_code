@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Buzzer_Control_Activity!</string>
+    <string name="app_name">Buzzer_Control</string>
+    
+     <string name="D7">first buzzer</string>
+    <string name="D5">second buzzer</string>
+    <string name="OPEN">OPEN</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="EXIT">EXIT</string>
+    <string name="EM">  </string>
+    <string name="welcome">welcome to Meme48 </string>
+    <string name="input_error">input_error</string>
+	<string name="homepage_lebel">首頁</string>
+    
+    
+    <string name="about_title">about title</string>
+    <string name="about_msg">about msg</string>
+</resources>
